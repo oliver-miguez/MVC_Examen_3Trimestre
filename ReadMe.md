@@ -23,7 +23,7 @@ Gestiona dos funciones de un coche ( Avanzar y Repostar )
 ## Como funciona
 
 ---
-- En base al diagrama realizado, la **View** pregunta al **Controller** si puede avanzar o repostar,
+- En base al diagrama realizado y al proceso y camino que tomé, la **View** pregunta al **Controller** si puede avanzar o repostar,
 y de igual manera el **Controller llama al **Model** para ver si puede avanzar o repostar.
 - Si el **Model** puede hacer estas acciones, devolverá al **Controller** los metros o los litros consumidos o recorridos,
 que a su vez serán enviados a la **View** a través del **Controller**
